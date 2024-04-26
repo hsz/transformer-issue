@@ -9,9 +9,5 @@ repositories {
 }
 
 dependencies {
-    intellijPlatformDependency("com.jetbrains.intellij.idea:ideaIC:2024.1")
-}
-
-kotlin {
-    jvmToolchain(17)
+    fooDependency("com.jetbrains.intellij.idea:ideaIC:2024.1")
 }
